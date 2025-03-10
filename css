@@ -1,0 +1,14 @@
+.skip-link {
+    position: absolute;
+    top: -40px; /* Ẩn ra khỏi màn hình */
+    left: 10px;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    z-index: 100;
+    text-decoration: none;
+}
+
+.skip-link:focus {
+    top: 10px; /* Hiện khi focus */
+}
